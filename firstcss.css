@@ -14,6 +14,35 @@ h4{color:gray; font-family:cursive;font-size: 35px}
 <body>
     {background-color: DarkCyan;}
 
+th {color:red;border:5px solid #0088dd;}
+
+table.one{color:red;border:3px solid green;padding:15px
+     ;margin-bottom: 20px; empty-cells: show;}
+
+table, th, td {
+       border: 1px solid black;
+     }
+
+img {height:300px ;width:400px}
+
+li {1-align:center;list-style-position: inside;}
+
+div.b1{height:350px;width:350px;background-color:lightblue
+    ; border-style: ridge; border-color:red; visibility: visible; display:block;
+    ; border-radius: 175px;
+    }
+
+
+.box {
+        float: left;
+        width: 200px;
+        margin-left: 10px;
+        margin-top: 10px;
+        padding: 5px;
+        border: 2px solid blue;
+    }
+
+
 headtwo {
     font-family: Helvetica
     ;color: green
@@ -24,8 +53,19 @@ headtwo {
 foot{font-size: 48px; font-weight: bold
     ;background-color: DarkCyan; opacity:0.5}
 
-p.p1{font-size: 55;color:Black; background-color: pink
-    ;opacity:0.55;font-family: fantasy;text-align: center;}
+p.p1{font-size: 35;color:Black; background-color: green
+    ;opacity:0.25;font-family: fantasy;text-align: left;padding:10px
+    ;visibility:visible}
+
+p.p2{font-size: 35;color:Black; background-color: green
+    ;opacity:0.25;font-family: fantasy;text-align: left;padding:10px
+    ;visibility:visible;display:none}
+
+p.p3{font-size: 35;color:Black; background-color: green
+        ;opacity:0.25;font-family: fantasy;text-align: left;padding:10px
+        ;visibility:visible}
+
+
 
 .page {color: red; font: helvetica;font-weight:900
     border: 10px solid #665544;background-color: lightblue
