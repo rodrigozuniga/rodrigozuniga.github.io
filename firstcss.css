@@ -23,7 +23,7 @@ table, th, td {
        border: 1px solid black;
      }
 
-img {height:300px ;width:400px}
+img {height:300px ;width:400px;border:1px solid yellow;}
 
 li {1-align:center;list-style-position: inside;}
 
@@ -41,7 +41,6 @@ div.b1{height:350px;width:350px;background-color:lightblue
         padding: 5px;
         border: 2px solid red;
     }
-
 
 headtwo {
     font-family: Helvetica
@@ -64,8 +63,6 @@ p.p2{font-size: 35;color:Black; background-color: green
 p.p3{font-size: 35;color:Black; background-color: green
         ;opacity:0.25;font-family: fantasy;text-align: left;padding:10px
         ;visibility:visible}
-
-
 
 .page {color: red; font: helvetica;font-weight:900
     border: 10px solid #665544;background-color: lightblue
