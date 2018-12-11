@@ -8,23 +8,65 @@
     </head>
 </html>
 
+<div class="cols1">
+<section>
+<p class="pfloat">
+this is a small amount of text
+to create the first column using float:left
+but i still have to create several more columns
+to see that it actually works
+</p>
+</div>
+<div class="cols2">
+<p class="pfloat">
+so this is the second column but I have to
+    a larger margin both to the left and right
+    otherwise the text looks very cramped so
+    i will do just that now
+</p>
+</div>
+
+<p class="pfloat">
+but even better would be to put a thin line
+between each of the columns so it is extra
+clear that these are several disticnt columns
+</p>
+</section>
+</div>
+
 <body>
     <h1 id=top>Big Title to be formated with CSS in blue </h1>
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+
+<div style="clear:both;"></div>
+
+<body>
     <headtwo>
         This is a smaller header with specific formatting
     </headtwo>
+</body>
+
+<body>
+<blockquote>
+"Life is like riding a bicycle. To keep your balance you have to keep moving."
+</blockquote>
 
 <figure>
     <img src="barceloneta.jpg"
     alt="Dawn at the Barceloneta"
     title='Barceloneta at dawn'>
     </img>
-    <figcaption style="text-align:left; font-weight:bold">Barceloneta at Dawn, 09/28/2018</figcaption>
+    <figcaption style="text-align:left; font-weight:bold; font-size:25px">Barceloneta at Dawn, 09/28/2018</figcaption>
 </figure>
+</body>
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8146.889773668089!2d2.1998127762235913!3d41.38622484902131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1544504786390"
-width="600" height="450" frameborder="300" style="border:0; padding-left:35px" allowfullscreen></iframe>
-
+width="600" height="450" frameborder="300" style="border:0; padding-left:35px" allowfullscreen>
+</iframe>
 
     <h3>this is an h3 title</h3>
 
@@ -34,7 +76,7 @@ width="600" height="450" frameborder="300" style="border:0; padding-left:35px" a
     </div>
 
     <div class="priority">
-            <h1> another title<h1>
+            <h2> another title<h2>
     </div>
 
     <div class="b1">
@@ -98,6 +140,29 @@ width="600" height="450" frameborder="300" style="border:0; padding-left:35px" a
 
 <a style="color:brown;font-size:55px" href="mailto:rodrigozuniga@gmail.com">Email Rodrigo</a>
 
-</body>
-
 <link href="firstcss.css" type="text/css" rel="stylesheet">
+
+<br>
+<br>
+<br>
+<br>
+
+<div class="box">
+<body style="font-size:30pt">
+    <p>this is a regular paragraph which means it is
+    just like any other paragraph and has no difference
+    from most paragraphs which are the moost common ones<p>
+    <p class="prelative">
+    this is a different kind of paragraph because
+    it is a relative paragraph meaning it will be located
+    on the layout in a different way respect tothe other
+    paragraphs
+    </p>
+    <p class="pabsolute">
+    this paragraph is of the absolute type meaning it
+    is located in relation to the container and does
+    not affect any of the other paragraphs or elements
+    in the box
+    </p>
+</body>
+</div>

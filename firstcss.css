@@ -1,7 +1,12 @@
-
 h1 {color: blue
     ; font-family: Helvetica
-    ; font-weight:900}
+    ; font-weight:350
+    ; font-size: 50px
+    ; width: 1100
+    ; position: fixed
+    ; top:0px
+    ; background:lightgray
+    ; z-index: 100}
 
 h2 {color:red}
 
@@ -32,10 +37,18 @@ div.b1{height:350px;width:350px;background-color:lightblue
     ; border-radius: 175px;
     }
 
+div.cols1{float:left}
+div.cols2{float:left}
+
+
+blockquote{float:right; width:300px; font-size: 100%;
+    margin: 70px 80px 50px 50px; border-top: 1px solid gray
+    ; border-bottom: 1px solid gray}
+
 
 .box {
         float: left;
-        width: 250px;
+        width: 850px;
         margin-left: 10px;
         margin-top: 10px;
         padding: 5px;
@@ -45,7 +58,7 @@ div.b1{height:350px;width:350px;background-color:lightblue
 headtwo {
     font-family: Helvetica
     ;color: green
-    ;font-size: 25px
+    ;font-size: 20px
     ;font-weight: bold
 }
 
@@ -63,6 +76,18 @@ p.p2{font-size: 35;color:Black; background-color: green
 p.p3{font-size: 35;color:Black; background-color: green
         ;opacity:0.25;font-family: fantasy;text-align: left;padding:10px
         ;visibility:visible}
+
+p.prelative{position: relative; top:10px; left:100px;width:600px}
+p.pabsolute{position: absolute; left:950px; width:350px; top:4280px;}
+
+p.pfloat{float:left; width: 250px; border-left: solid lightgray
+    ;margin-top:125px;margin-left:10px;margin-right:5px;
+    font-size:25px;padding:5px}
+
+.clear{clear:left;}
+
+
+
 
 .page {color: red; font: helvetica;font-weight:900
     border: 10px solid #665544;background-color: lightblue
