@@ -35,11 +35,11 @@ div.b1{height:350px;width:350px;background-color:lightblue
 
 .box {
         float: left;
-        width: 200px;
+        width: 250px;
         margin-left: 10px;
         margin-top: 10px;
         padding: 5px;
-        border: 2px solid blue;
+        border: 2px solid red;
     }
 
 
